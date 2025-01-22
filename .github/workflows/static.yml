@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Calentamiento y Estiramiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .section {
+            padding: 20px;
+            margin: 10px;
+        }
+        .section h2 {
+            color: #444;
+        }
+        .exercise-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .exercise-list li {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ejercicios de Calentamiento y Estiramiento</h1>
+    </header>
+
+    <div class="section" id="warmup">
+        <h2>Ejercicios de Calentamiento</h2>
+      
