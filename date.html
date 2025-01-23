@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres una cita virtual?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            background-color: #4CAF50; /* Verde */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #response {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        #emoji {
+            font-size: 50px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>¿Quieres una cita virtual?</h1>
+    
+    <button id="yesButton">Sí</button>
+    <button id="noButton">No</button>
+    
+    <div id="response"></div>
+    <div id="emoji"></div>
+
+    <script>
+        // Acción cuando se presiona el botón "Sí"
+        document.getElementById("yesButton").addEventListener("click", function() {
+            document.getElementById("response").innerHTML = ""; // Limpiar mensaje previo
+            document.getElementById("emoji").innerHTML = "😊"; // Mostrar carita feliz
+        });
+
+        // Acción cuando se presiona el botón "No"
+        document.getElementById("noButton").addEventListener("click", function() {
+            document.getElementById("response").innerHTML = "Respuesta equivocada"; // Mostrar mensaje de error
+            document.getElementById("emoji").innerHTML = ""; // Limpiar emoji anterior
+        });
+    </script>
+
+</body>
+</html>
